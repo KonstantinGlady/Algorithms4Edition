@@ -6,6 +6,7 @@ public class WeightedQuickUnionUF {
     int count;
 
     public WeightedQuickUnionUF(int n) {
+
         count = n;
         parent = new int[n];
         size = new int[n];
